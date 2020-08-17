@@ -1,0 +1,128 @@
+
+.Header {
+  display: flex;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.Header p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  width: 80px;
+  height: 21px;
+  color: #050505;
+
+  margin: 16px 151px 13px 10px; 
+}
+
+.btnFilter button {
+  background: #E4E6EB;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+
+  margin: 13px 10px 12px 0;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #050505;
+
+  width: 92px;
+  height: 25px;
+
+  font-family: 'Roboto';
+}
+
+.btnFilter img {
+  margin-right: 5.55px;
+}
+
+.btnManager button {
+  background: #E4E6EB;
+  border-radius: 5px;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+
+  margin: 13px 12px 12px 0;
+
+  width: 145px;
+  height: 25px;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #050505;
+
+  font-family: 'Roboto';
+}
+
+.btnManager img {
+  margin-right: 5.55px;
+}
+
+.View {
+  display: flex;
+  justify-content: space-around;
+}
+
+.List {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  border-bottom: 1px solid #1876F2;
+  padding: 14px 16px 14px 16px;
+}
+
+.List img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+}
+
+.List p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #1876F2;
+}
+
+.Grid {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  padding: 13px 16px 13px 16px;
+}
+
+.Grid img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+}
+
+.Grid p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #65676B;
+}

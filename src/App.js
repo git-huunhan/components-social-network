@@ -1,26 +1,62 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import HeaderVP from './components/view-post/Header';
+import View from './components/view-post/View';
+
+class App extends Component {
+  constructor(){
+    super();
+
+    this.state = {
+      view: [{
+        title: 'Bài viết',
+        filter: 'Bộ lọc',
+        manager: 'Quản lý bài viết',
+        list: 'Xem theo danh sách',
+        grid: 'Xem dạng lưới'
+      }],
+
+      suggest: [
+
+      ],
+
+      create: [
+
+      ]
+    }
+  }
+
+  render(){
+    const { view } = this.state;
+
+    return (
+      <div className="App">
+        <div className="view-post-main">
+          {
+            view.map((item, index) =>
+            <HeaderVP key={index} title={item.title} 
+                    filter={item.filter} 
+                    manager={item.manager}/>
+            )
+          }
+          {
+            view.map((item, index) =>
+            <View key={index} list={item.list}
+                grid={item.grid}/>
+            )
+          }
+          
+        </div>
+        <div className="suggestion-main">
+
+        </div>
+        <div className="create-post-main">
+
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
