@@ -1,0 +1,98 @@
+.Name {
+  width: 500px;
+  height: 31px;
+
+  background: #F5F6F7;
+  border: 1px solid #E9EBEE;
+  box-sizing: border-box;
+  border-radius: 3px
+}
+
+.Name p{
+  width: 118.93px;
+  height: 15.47px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  margin: 7px 370.07px 8.53px 11px;
+  color: #4B4F56;
+}
+
+.Input  {
+  width: 462.52px;
+  height: 66.14px;
+  margin: 8.91px 26.48px 0 11px;
+  display: flex;
+}
+
+.Input img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Input input {
+  width: 372.64px;
+  height: 17.61px;
+  border: none;
+  margin: 12.09px 0 0 8px;
+}
+
+.Input input:focus {
+  outline: none;
+}
+
+.Input input::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #90949C;
+}
+
+.Tools {
+  display: flex;
+  width: 475px;
+  border-top: 1px solid #E9EBEE;
+  margin: 0 12px 2.67px 13px;
+}
+
+.Tools button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border: none;
+  height: 27.95px;
+  background: #F5F6F7;
+  border-radius: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #4B4F56;
+
+  margin: 8.5px 12px 0 0;
+  padding: 0 13px 0 13px;
+}
+
+.Tools img {
+  margin-right: 4px;
+}
+
+.Tools button:focus {
+  outline: none;
+}
+
+.Tools button:hover {
+  background: #e7e8e9;
+}

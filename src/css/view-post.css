@@ -38,11 +38,21 @@
   width: 92px;
   height: 25px;
 
+  cursor: pointer;
+
   font-family: 'Roboto';
 }
 
 .btnFilter img {
   margin-right: 5.55px;
+}
+
+.btnFilter button:hover {
+  background-color: #d8d8d8;
+}
+
+.btnFilter button:focus {
+  outline: none;
 }
 
 .btnManager button {
@@ -66,12 +76,21 @@
   align-items: center;
 
   color: #050505;
+  cursor: pointer;
 
   font-family: 'Roboto';
 }
 
 .btnManager img {
   margin-right: 5.55px;
+}
+
+.btnManager button:hover {
+  background-color: #d8d8d8;
+}
+
+.btnManager button:focus {
+  outline: none;
 }
 
 .View {
@@ -82,9 +101,12 @@
 .List {
   display: flex;
   height: fit-content;
-  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
   border-bottom: 1px solid #1876F2;
-  padding: 14px 16px 14px 16px;
+  padding: 14px 0 14px 0;
+  cursor: pointer;
 }
 
 .List img {
@@ -105,10 +127,24 @@
 
 .Grid {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: fit-content;
-  width: fit-content;
-  padding: 13px 16px 13px 16px;
+  width: 210px;
+  cursor: pointer;
+  padding: 6px 0 6px 0;
 }
+
+.GridChild {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px 20px 8px 20px;
+}
+
+.GridChild:hover {
+  background-color: #f3f3f3;
+}
+
 
 .Grid img {
   width: 20px;
@@ -121,7 +157,6 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-
   text-align: center;
 
   color: #65676B;

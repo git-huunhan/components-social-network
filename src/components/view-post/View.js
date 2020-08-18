@@ -15,8 +15,10 @@ class View extends Component {
           <p>{list}</p>
         </div>
         <div className="Grid">
-          <img src={gridImg} alt="grid"/>
-          <p>{grid}</p>
+          <div className="GridChild">
+            <img src={gridImg} alt="grid"/>
+            <p>{grid}</p>
+          </div>
         </div>
       </div>
     );

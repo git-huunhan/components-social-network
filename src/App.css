@@ -1,10 +1,26 @@
 body {
-  display: flex;
-  justify-content: center;
   padding: 50px;
   background: #F0F2F5;
   
   font-family: 'Roboto';
+}
+
+.App {
+  display: flex;
+}
+
+.suggestion-main {
+  width: 293px;
+  height: 196px;
+
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.Main {
+  margin-left:  130px;
 }
 
 .view-post-main {
@@ -13,4 +29,14 @@ body {
   width: 500px;
   height: 100px;
   box-sizing: border-box;
+}
+
+.create-post-main {
+  width: 500px;
+  height: 153px;
+
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 25px;
 }
