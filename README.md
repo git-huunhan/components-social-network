@@ -1,3 +1,10 @@
+# Components social network
+## Demo
+<img src="./src/img/demoImg-1.png" />
+<img src="./src/img/demoImg-2.png" />
+<img src="./src/img/demoImg-3.png" />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
